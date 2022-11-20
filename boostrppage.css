@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/highereducation/images/w_2560,h_1707/f_auto,q_auto/v1659636076/BestColleges.com/Difference-between-front-end-and-back-end-developer_169243cb9a/Difference-between-front-end-and-back-end-developer_169243cb9a.jpg?_i=AA');
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: black;
+    border-top: 1px solid rgb(45, 41, 41);
+    border-bottom: 1px solid rgb(45, 41, 41);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+
+nav img {
+    width: 100%;
+    height: 60px;
+    margin-right: 150px;
+
+}
+
+nav ul {
+    display: flex;
+    margin: 10;
+    padding: 0 100px;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+nav li a:hover {
+    color: orangered;
+}
+
+nav img {
+    width: 250px;
+    height: 56px;
+    margin-top: 10px;
+}
+
+.title h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.title h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    border: 1px solid orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.btn:hover {
+    background-color: rgb(168, 110, 2);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    width: 900px;
+    margin: 25%;
+}
+
+ .col1, .col2, .col3{
+    width: 200px;
+    float: left;
+    margin: 40px;
+    
+}
+p{
+    font-family: serif;
+    color: rgb(132, 124, 124);
+}
+i{
+    font-size:60px;
+    color:white;
+    background-color: orange;
+    border-radius: 50%;
+    border: 15px solid orange;
+    
+}
+
+.folio-card img{
+  width: 360px;
+  height: 320px;
+  position: relative;
+ 
+}
+.folio-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 470px;
+}
+.mesafe{
+    width: 90%;
+    margin: 0 auto;
+}
+.folio-card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+p{
+    color: rgb(85, 83, 81);
+}
+.folio-card{
+    width: 360px;
+    height: 470px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .folio-card:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+     width: 360px;
+    height: 230px;
+    padding-top: 90px;
+    
+  }
+  
+  .overlay{
+    position: absolute;
+    background-color: rgba(255,0,0,.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(1.3);
+    opacity: 0;
+    transition: transform .4s ease 0s;
+  }
+  
+  .overlay span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 5em;
+    color: #fff;
+    font-family: Sans-serif;
+    
+  }
+  
+  .folio-card img{
+    transition: transform .8s ease;
+    
+  }
+  
+  .fa-twitter{
+    color:white;
+    font-size: 50px;
+    background-color: black;
+    border: black !important;
+   
+  }
+  .fa-facebook{
+    color:white;
+    font-size: 50px;
+    background-color: black;
+    border:black !important;
+  }
+  .fa-instagram{
+    color:white;
+    font-size: 50px;
+    background-color: black;
+    border: black !important; 
+    
+  }
+  .photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #cecbc3;
+}
+.photo img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.mean-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.mean-team h2{
+    margin-top: 20px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo i{
+    font-size: 30px;
+}
